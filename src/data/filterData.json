@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Économique",
+        "icon": "money-bill-wave"
+    },
+    {
+        "name": "Familial",
+        "icon": "person"
+    },
+    {
+        "name": "Romantique",
+        "icon": "heart"
+    },
+    {
+        "name": "Nos pépites",
+        "icon": "fire"
+    }
+]

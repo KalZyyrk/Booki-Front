@@ -1,0 +1,10 @@
+@use '../bases/variables' as *;
+
+.body {
+    padding: 0 50px;
+    margin-top: 30px;
+
+    @media (width < $tabletScreenMinWidth) {
+        padding: 0;
+    }
+}

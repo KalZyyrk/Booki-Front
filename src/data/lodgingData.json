@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Hôtel du port",
+        "img": "https://www.hebergeur-image.com/upload/86.71.25.64-640a54bd2a749.jpg",
+        "price": 52,
+        "rating": 4
+    },
+    {
+        "name": "Hôtel Chez Amina",
+        "img": "https://www.hebergeur-image.com/upload/86.71.25.64-640a53b39532c.jpg",
+        "price": 96,
+        "rating": 4
+    },
+    {
+        "name": "Hôtel Les mouettes",
+        "img": "https://www.hebergeur-image.com/upload/86.71.25.64-640a5486eca5a.jpg",
+        "price": 76,
+        "rating": 4
+    },
+    {
+        "name": "Hôtel de la mer",
+        "img": "https://www.hebergeur-image.com/upload/86.71.25.64-640a543c6bb60.jpg",
+        "price": 46,
+        "rating": 4
+    },
+    {
+        "name": "Auberge La Canebière",
+        "img": "https://www.hebergeur-image.com/upload/86.71.25.64-640a541fe3645.jpg",
+        "price": 25,
+        "rating": 4
+    },
+    {
+        "name": "Auberge Le Panier",
+        "img": "https://www.hebergeur-image.com/upload/86.71.25.64-640a53d732c48.jpg",
+        "price": 23,
+        "rating": 4
+    }
+]

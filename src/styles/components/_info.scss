@@ -1,0 +1,41 @@
+@use '../bases/variables' as *;
+
+.info {
+    #title {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    &-bar {
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        &-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 24px;
+            height: 24px;
+            border: 1px solid $BgColor;
+            border-radius: 50%;
+
+            svg {
+                height: 10px;
+            }
+        }
+
+    }
+
+    @media (width < $tabletScreenMinWidth) {
+        margin: 0 20px;
+        margin-top: 30px;
+
+        #subtitle {
+            margin-top: 8px;
+        }
+    }
+
+
+}

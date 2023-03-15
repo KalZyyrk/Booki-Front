@@ -1,0 +1,57 @@
+@use '../bases/variables' as *;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 79px;
+
+    @media (width < $tabletScreenMinWidth) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    .main-logo {
+        padding: 30px;
+
+        img {
+            height: 19px;
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 329px;
+        height: 35px;
+        padding: 0 25px;
+
+        @media (width < $tabletScreenMinWidth) {
+            justify-content: center;
+            width: 100%;
+            padding: 0;
+        }
+
+        .nav-button {
+            padding-top: 15px;
+            text-align: center;
+
+            @media (width < $tabletScreenMinWidth) {
+                width: 50%;
+                padding-bottom: 15px;
+            }
+
+            &:hover {
+                color: $mainColor;
+                border-top: 2px solid $mainColor;
+
+                @media (width < $tabletScreenMinWidth) {
+                    border-top: none;
+                    border-bottom: 2px solid $mainColor;
+                }
+            }
+        }
+    }
+}
